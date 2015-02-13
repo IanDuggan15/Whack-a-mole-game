@@ -1,0 +1,61 @@
+/*This is a comment*/
+
+.marquee {
+	color: rgba(255, 255, 255, 0.6);
+	position: bottom;
+}
+
+.ui-helper-center {
+				text-align: center;
+}
+
+img {
+ object-positioning: bottom;
+}
+
+table{
+	border-collapse:collapse;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 56px;
+	}
+
+table, th, td {
+				border: 1px solid White ;
+	}
+
+img {
+	display: block;
+}
+
+body{
+	background-color:#A30000 ;
+	}
+
+form{
+			position: absolute;
+			left: 225px;
+			top: 280px;
+}
+
+#scoretable{
+	border:0;
+}
+
+.toprow{
+	background-color:#CC0000 ;
+}
+
+.botrow{
+	background-color:#CC0000 ;
+}
+
+#logo {
+				position: absolute;
+				left: 140px;
+				top: 360px;
+}
+
+p1 {
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 33px ;
+}

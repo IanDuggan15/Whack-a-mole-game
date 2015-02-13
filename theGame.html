@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<marquee behavior="scroll" text-color="rgba(255, 255, 255, 0.6)" direction="left"></marquee>
+
+		<title>Whack-A-mole</title>
+		<link rel="stylesheet" type="text/css" href="styleSheet.css" />
+
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="gameCode.js"></script>
+
+		<img id="logo" src="Logo.png" alt="HTML5 Icon">
+
+	</head>
+	<body>
+
+	<script type="text/javascript" >
+	 drawtable() ;
+		<!--document.getElementById('song').play() ;
+	</script>
+
+	<br/>
+			<table id="scoretable" border="2">
+				<tr class="toprow">
+					<td class="ui-helper-center">Hits</td>
+					<td class="ui-helper-center">Misses</td>
+					<td class="ui-helper-center">Level</td>
+					<td class="ui-helper-center">Lives</td>
+				</tr>
+				<tr class="botrow">
+					<td class="ui-helper-center" id="hit">0</td>
+					<td class="ui-helper-center" id="miss">0</td>
+					<td class="ui-helper-center" id="level">1</td>
+					<td class="ui-helper-center" id="lives">10</td>
+				</tr>
+			</table>
+
+			<Form id="Play" method="link" action="file:///C:/Users/ian/Desktop/Coding/Whack_A_Mole/theGame.html">
+			<Input type="submit" value="Play Again">
+			</Form>
+
+			<p1>Aim of the game, See how many trolls you can hit before running out of lives.
+
+			<audio autoplay="true" src="Song.mp3">
+
+	</body>
+
+</html>
